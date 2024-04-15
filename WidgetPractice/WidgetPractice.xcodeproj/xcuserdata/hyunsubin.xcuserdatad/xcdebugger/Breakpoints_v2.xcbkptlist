@@ -46,8 +46,8 @@
             filePath = "MyWidget/Widget/MyWidget/Configuration/ViewContent/MyWidgetEntryView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "calculateAmountEarnedToday(salary:currentHours:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +62,8 @@
             filePath = "MyWidget/Widget/MyWidget/Configuration/ViewContent/MyWidgetEntryView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "calculateAmountEarnedToday(salary:currentHours:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,42 +78,10 @@
             filePath = "MyWidget/Widget/MyWidget/Configuration/ViewContent/MyWidgetEntryView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
             landmarkName = "getStatus()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "67D220FD-5F8D-41AF-A4E8-D5B9F95923E8 - cb57c8b267beb668"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MyWidgetExtension.MyWidgetEntryView.getStatus() -&gt; Swift.String"
-                  moduleName = "MyWidgetExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hyunsubin/WidgetPractice/MyWidget/Widget/MyWidget/Configuration/ViewContent/MyWidgetEntryView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "96"
-                  endingLineNumber = "96"
-                  offsetFromSymbolStart = "2172">
-               </Location>
-               <Location
-                  uuid = "67D220FD-5F8D-41AF-A4E8-D5B9F95923E8 - cb57c8b267beb668"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MyWidgetExtension.MyWidgetEntryView.getStatus() -&gt; Swift.String"
-                  moduleName = "MyWidgetExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hyunsubin/WidgetPractice/MyWidget/Widget/MyWidget/Configuration/ViewContent/MyWidgetEntryView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "96"
-                  endingLineNumber = "96"
-                  offsetFromSymbolStart = "2268">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -126,42 +94,10 @@
             filePath = "MyWidget/Widget/MyWidget/Configuration/ViewContent/MyWidgetEntryView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "calculateAmountEarnedToday(salary:currentHours:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C5172661-03CC-4571-A114-448A840D3BC9 - bef492c512195c72"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MyWidgetExtension.MyWidgetEntryView.calculateAmountEarnedToday(salary: Swift.Int, currentHours: Foundation.Date) -&gt; Swift.Double"
-                  moduleName = "MyWidgetExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hyunsubin/WidgetPractice/MyWidget/Widget/MyWidget/Configuration/ViewContent/MyWidgetEntryView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "1356">
-               </Location>
-               <Location
-                  uuid = "C5172661-03CC-4571-A114-448A840D3BC9 - bef492c512195c72"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MyWidgetExtension.MyWidgetEntryView.calculateAmountEarnedToday(salary: Swift.Int, currentHours: Foundation.Date) -&gt; Swift.Double"
-                  moduleName = "MyWidgetExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hyunsubin/WidgetPractice/MyWidget/Widget/MyWidget/Configuration/ViewContent/MyWidgetEntryView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "1364">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -190,8 +126,8 @@
             filePath = "MyWidget/Widget/MyWidget/Configuration/ViewContent/MyWidgetEntryView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
             landmarkName = "getStatus()"
             landmarkType = "7">
          </BreakpointContent>
@@ -206,8 +142,8 @@
             filePath = "MyWidget/Widget/MyWidget/Configuration/ViewContent/MyWidgetEntryView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "getStatus()"
             landmarkType = "7">
          </BreakpointContent>
@@ -226,53 +162,6 @@
             endingLineNumber = "20"
             landmarkName = "Provider"
             landmarkType = "14">
-            <Locations>
-               <Location
-                  uuid = "33473673-9240-40D9-93B5-97AF0E99A2C7 - e51ef324897cb92f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MyWidgetExtension.Provider.snapshot(for: MyWidgetExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; MyWidgetExtension.SimpleEntry"
-                  moduleName = "MyWidgetExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hyunsubin/WidgetPractice/MyWidget/Widget/MyWidget/Configuration/Provider/Provider.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "128">
-               </Location>
-               <Location
-                  uuid = "33473673-9240-40D9-93B5-97AF0E99A2C7 - 33ff59d577235087"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for MyWidgetExtension.Provider.snapshot(for: MyWidgetExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; MyWidgetExtension.SimpleEntry"
-                  moduleName = "MyWidgetExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hyunsubin/WidgetPractice/MyWidget/Widget/MyWidget/Configuration/Provider/Provider.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  uuid = "33473673-9240-40D9-93B5-97AF0E99A2C7 - e51ef324897cb92f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MyWidgetExtension.Provider.snapshot(for: MyWidgetExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; MyWidgetExtension.SimpleEntry"
-                  moduleName = "MyWidgetExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hyunsubin/WidgetPractice/MyWidget/Widget/MyWidget/Configuration/Provider/Provider.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "132">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -285,8 +174,8 @@
             filePath = "MyWidget/Widget/MyWidget/Configuration/ViewContent/MyWidgetEntryView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "getStatus()"
             landmarkType = "7">
          </BreakpointContent>
@@ -305,53 +194,6 @@
             endingLineNumber = "25"
             landmarkName = "snapshot(for:in:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "6EF5B546-9A8D-4243-9D9A-4BC53FFD5602 - 57c2c3e388135671"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MyWidgetExtension.Provider.timeline(for: MyWidgetExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;MyWidgetExtension.SimpleEntry&gt;"
-                  moduleName = "MyWidgetExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hyunsubin/WidgetPractice/MyWidget/Widget/MyWidget/Configuration/Provider/Provider.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "452">
-               </Location>
-               <Location
-                  uuid = "6EF5B546-9A8D-4243-9D9A-4BC53FFD5602 - e0ca1435d15cb301"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for MyWidgetExtension.Provider.timeline(for: MyWidgetExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;MyWidgetExtension.SimpleEntry&gt;"
-                  moduleName = "MyWidgetExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hyunsubin/WidgetPractice/MyWidget/Widget/MyWidget/Configuration/Provider/Provider.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "168">
-               </Location>
-               <Location
-                  uuid = "6EF5B546-9A8D-4243-9D9A-4BC53FFD5602 - 33ff59d57723507b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for MyWidgetExtension.Provider.snapshot(for: MyWidgetExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; MyWidgetExtension.SimpleEntry"
-                  moduleName = "MyWidgetExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hyunsubin/WidgetPractice/MyWidget/Widget/MyWidget/Configuration/Provider/Provider.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "256">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -368,38 +210,6 @@
             endingLineNumber = "23"
             landmarkName = "snapshot(for:in:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "28C09F7B-405C-4C78-B723-E333116B8977 - 33ff59d577235039"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for MyWidgetExtension.Provider.snapshot(for: MyWidgetExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; MyWidgetExtension.SimpleEntry"
-                  moduleName = "MyWidgetExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hyunsubin/WidgetPractice/MyWidget/Widget/MyWidget/Configuration/Provider/Provider.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "108">
-               </Location>
-               <Location
-                  uuid = "28C09F7B-405C-4C78-B723-E333116B8977 - 33ff59d577235039"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for MyWidgetExtension.Provider.snapshot(for: MyWidgetExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; MyWidgetExtension.SimpleEntry"
-                  moduleName = "MyWidgetExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hyunsubin/WidgetPractice/MyWidget/Widget/MyWidget/Configuration/Provider/Provider.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "196">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

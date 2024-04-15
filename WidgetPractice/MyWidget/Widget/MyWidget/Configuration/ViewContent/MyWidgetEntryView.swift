@@ -25,10 +25,12 @@ struct MyWidgetEntryView : View {
                     salary: entry.configuration.salary,
                     currentHours: entry.date
                 )
-                HStack {
-                    Text("오늘 하루 \(money)원 버는 중💰")
-                        .font(.caption)
-                    Spacer()
+                if !money.isZero && money.isFinite {
+                    HStack {
+                        Text("오늘 하루 \(money)원 버는 중💰")
+                            .font(.caption)
+                        Spacer()
+                    }
                 }
             }
             HStack {
@@ -50,7 +52,8 @@ private extension MyWidgetEntryView {
     ) -> Double {
         guard
             let start = entry.configuration.startDate.stringToDate(),
-            let end = entry.configuration.endDate.stringToDate()
+            let end = entry.configuration.endDate.stringToDate(),
+            currentHours.timeIntervalSince(end) < 0
         else { return 0.0 }
         
         let dailyWorkingHours = end.timeIntervalSince(start).tohour

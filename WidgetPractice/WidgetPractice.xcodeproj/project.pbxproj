@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D60D08F12BCD488F00D6F6CE /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D60D08F02BCD488F00D6F6CE /* Intents.intentdefinition */; };
+		D60D08F32BCD498700D6F6CE /* IntentWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60D08F22BCD498700D6F6CE /* IntentWidget.swift */; };
+		D60D08F82BCD49B000D6F6CE /* IntentEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60D08F72BCD49B000D6F6CE /* IntentEntry.swift */; };
+		D60D08FA2BCD49B900D6F6CE /* IntentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60D08F92BCD49B900D6F6CE /* IntentProvider.swift */; };
+		D60D08FC2BCD49F000D6F6CE /* IntentWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60D08FB2BCD49F000D6F6CE /* IntentWidgetEntryView.swift */; };
+		D60D09022BCD4AA600D6F6CE /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66C66682BCD21BB00385E69 /* Intents.framework */; };
+		D60D09052BCD4AA600D6F6CE /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60D09042BCD4AA600D6F6CE /* IntentHandler.swift */; };
+		D60D09092BCD4AA600D6F6CE /* Intent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D60D09012BCD4AA600D6F6CE /* Intent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D60D090D2BCD4AAB00D6F6CE /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D60D08F02BCD488F00D6F6CE /* Intents.intentdefinition */; };
 		D66C66582BCD125300385E69 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C66572BCD125300385E69 /* UserDefaults+.swift */; };
 		D66C66592BCD126000385E69 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C66572BCD125300385E69 /* UserDefaults+.swift */; };
 		D66C665B2BCD129100385E69 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C665A2BCD129100385E69 /* Date+.swift */; };
@@ -33,6 +42,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D60D09072BCD4AA600D6F6CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F2690D2BCCBCA400E8B939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D60D09002BCD4AA600D6F6CE;
+			remoteInfo = Intent;
+		};
 		D6F269562BCCC4BE00E8B939 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D6F2690D2BCCBCA400E8B939 /* Project object */;
@@ -49,6 +65,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				D60D09092BCD4AA600D6F6CE /* Intent.appex in Embed Foundation Extensions */,
 				D6F269582BCCC4BE00E8B939 /* MyWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
@@ -57,6 +74,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D60D08F02BCD488F00D6F6CE /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		D60D08F22BCD498700D6F6CE /* IntentWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentWidget.swift; sourceTree = "<group>"; };
+		D60D08F72BCD49B000D6F6CE /* IntentEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentEntry.swift; sourceTree = "<group>"; };
+		D60D08F92BCD49B900D6F6CE /* IntentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentProvider.swift; sourceTree = "<group>"; };
+		D60D08FB2BCD49F000D6F6CE /* IntentWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentWidgetEntryView.swift; sourceTree = "<group>"; };
+		D60D09012BCD4AA600D6F6CE /* Intent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Intent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60D09042BCD4AA600D6F6CE /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		D60D09062BCD4AA600D6F6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D66C66552BCCF8FB00385E69 /* WidgetPractice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetPractice.entitlements; sourceTree = "<group>"; };
 		D66C66562BCCFEBD00385E69 /* MyWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyWidgetExtension.entitlements; sourceTree = "<group>"; };
 		D66C66572BCD125300385E69 /* UserDefaults+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
@@ -88,6 +113,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D60D08FE2BCD4AA600D6F6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60D09022BCD4AA600D6F6CE /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6F269122BCCBCA400E8B939 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,6 +140,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D60D08EF2BCD486D00D6F6CE /* IntentWidget */ = {
+			isa = PBXGroup;
+			children = (
+				D60D08F22BCD498700D6F6CE /* IntentWidget.swift */,
+				D60D08F42BCD499300D6F6CE /* Configuration */,
+			);
+			path = IntentWidget;
+			sourceTree = "<group>";
+		};
+		D60D08F42BCD499300D6F6CE /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D60D08F62BCD49A300D6F6CE /* Provider */,
+				D60D08F52BCD499A00D6F6CE /* ViewContent */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		D60D08F52BCD499A00D6F6CE /* ViewContent */ = {
+			isa = PBXGroup;
+			children = (
+				D60D08FB2BCD49F000D6F6CE /* IntentWidgetEntryView.swift */,
+			);
+			path = ViewContent;
+			sourceTree = "<group>";
+		};
+		D60D08F62BCD49A300D6F6CE /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				D60D08F02BCD488F00D6F6CE /* Intents.intentdefinition */,
+				D60D08F72BCD49B000D6F6CE /* IntentEntry.swift */,
+				D60D08F92BCD49B900D6F6CE /* IntentProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		D60D09032BCD4AA600D6F6CE /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				D60D09042BCD4AA600D6F6CE /* IntentHandler.swift */,
+				D60D09062BCD4AA600D6F6CE /* Info.plist */,
+			);
+			path = Intent;
+			sourceTree = "<group>";
+		};
 		D66C665D2BCD12BC00385E69 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +200,7 @@
 				D66C66562BCCFEBD00385E69 /* MyWidgetExtension.entitlements */,
 				D6F269172BCCBCA400E8B939 /* WidgetPractice */,
 				D6F2694A2BCCC4BD00E8B939 /* MyWidget */,
+				D60D09032BCD4AA600D6F6CE /* Intent */,
 				D6F2692B2BCCBCCA00E8B939 /* Frameworks */,
 				D6F269162BCCBCA400E8B939 /* Products */,
 			);
@@ -132,6 +211,7 @@
 			children = (
 				D6F269152BCCBCA400E8B939 /* WidgetPractice.app */,
 				D6F269472BCCC4BD00E8B939 /* MyWidgetExtension.appex */,
+				D60D09012BCD4AA600D6F6CE /* Intent.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,6 +291,7 @@
 		D6F269652BCCDA7200E8B939 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
+				D60D08EF2BCD486D00D6F6CE /* IntentWidget */,
 				D6F2696C2BCCDDA700E8B939 /* MyWidget */,
 				D6F2696D2BCCDDBC00E8B939 /* StaticConfigurationWidget */,
 			);
@@ -264,6 +345,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D60D09002BCD4AA600D6F6CE /* Intent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60D090A2BCD4AA600D6F6CE /* Build configuration list for PBXNativeTarget "Intent" */;
+			buildPhases = (
+				D60D08FD2BCD4AA600D6F6CE /* Sources */,
+				D60D08FE2BCD4AA600D6F6CE /* Frameworks */,
+				D60D08FF2BCD4AA600D6F6CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Intent;
+			productName = Intent;
+			productReference = D60D09012BCD4AA600D6F6CE /* Intent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		D6F269142BCCBCA400E8B939 /* WidgetPractice */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6F269232BCCBCA500E8B939 /* Build configuration list for PBXNativeTarget "WidgetPractice" */;
@@ -277,6 +375,7 @@
 			);
 			dependencies = (
 				D6F269572BCCC4BE00E8B939 /* PBXTargetDependency */,
+				D60D09082BCD4AA600D6F6CE /* PBXTargetDependency */,
 			);
 			name = WidgetPractice;
 			productName = WidgetPractice;
@@ -307,9 +406,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					D60D09002BCD4AA600D6F6CE = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					D6F269142BCCBCA400E8B939 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -333,11 +435,19 @@
 			targets = (
 				D6F269142BCCBCA400E8B939 /* WidgetPractice */,
 				D6F269462BCCC4BD00E8B939 /* MyWidgetExtension */,
+				D60D09002BCD4AA600D6F6CE /* Intent */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D60D08FF2BCD4AA600D6F6CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6F269132BCCBCA400E8B939 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,6 +468,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D60D08FD2BCD4AA600D6F6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60D090D2BCD4AAB00D6F6CE /* Intents.intentdefinition in Sources */,
+				D60D09052BCD4AA600D6F6CE /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6F269112BCCBCA400E8B939 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -373,9 +492,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60D08F82BCD49B000D6F6CE /* IntentEntry.swift in Sources */,
+				D60D08FA2BCD49B900D6F6CE /* IntentProvider.swift in Sources */,
+				D60D08F12BCD488F00D6F6CE /* Intents.intentdefinition in Sources */,
 				D66C665C2BCD129900385E69 /* Date+.swift in Sources */,
 				D6F269642BCCDA5F00E8B939 /* SimpleEntry.swift in Sources */,
 				D6F2694E2BCCC4BD00E8B939 /* MyWidgetLiveActivity.swift in Sources */,
+				D60D08F32BCD498700D6F6CE /* IntentWidget.swift in Sources */,
 				D6F269762BCCDF1C00E8B939 /* StaticEntryView.swift in Sources */,
 				D6F269742BCCDF0000E8B939 /* StaticEntry.swift in Sources */,
 				D66C66592BCD126000385E69 /* UserDefaults+.swift in Sources */,
@@ -384,6 +507,7 @@
 				D6F269722BCCDEDD00E8B939 /* StaticProvider.swift in Sources */,
 				D6F269522BCCC4BD00E8B939 /* ConfigurationAppIntent.swift in Sources */,
 				D6F2694C2BCCC4BD00E8B939 /* MyWidgetBundle.swift in Sources */,
+				D60D08FC2BCD49F000D6F6CE /* IntentWidgetEntryView.swift in Sources */,
 				D6F269612BCCDA3300E8B939 /* Provider.swift in Sources */,
 				D6F269502BCCC4BD00E8B939 /* MyWidget.swift in Sources */,
 			);
@@ -392,6 +516,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D60D09082BCD4AA600D6F6CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D60D09002BCD4AA600D6F6CE /* Intent */;
+			targetProxy = D60D09072BCD4AA600D6F6CE /* PBXContainerItemProxy */;
+		};
 		D6F269572BCCC4BE00E8B939 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D6F269462BCCC4BD00E8B939 /* MyWidgetExtension */;
@@ -400,6 +529,58 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		D60D090B2BCD4AA600D6F6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YJXRFH75A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Intent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Intent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunny.WidgetPractice.Intent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D60D090C2BCD4AA600D6F6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YJXRFH75A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Intent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Intent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunny.WidgetPractice.Intent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D6F269212BCCBCA500E8B939 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -642,6 +823,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D60D090A2BCD4AA600D6F6CE /* Build configuration list for PBXNativeTarget "Intent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60D090B2BCD4AA600D6F6CE /* Debug */,
+				D60D090C2BCD4AA600D6F6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D6F269102BCCBCA400E8B939 /* Build configuration list for PBXProject "WidgetPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

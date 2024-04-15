@@ -13,6 +13,7 @@ struct MyWidgetBundle: WidgetBundle {
     var body: some Widget {
         MyWidget()
         MyStaticWidget()
+        IntentWidget()
         MyWidgetLiveActivity()
     }
 }
